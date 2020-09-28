@@ -1,4 +1,4 @@
-#============================================#
+#==================================================#
 
 	#---------------Usage----------------#
 	
@@ -14,7 +14,7 @@
 	
 	#outputValue:str	-> The input value encoded with the output radix
 	
-#============================================#
+#==================================================#
 	
 def convert(inputValue:str, inputRadix:str, outputRadix:str) :
 	intValue = 0
@@ -29,7 +29,7 @@ def convert(inputValue:str, inputRadix:str, outputRadix:str) :
 
 
 
-#============================================#
+#==================================================#
 
 	#---------------Usage----------------#
 	
@@ -44,7 +44,7 @@ def convert(inputValue:str, inputRadix:str, outputRadix:str) :
 	
 	#outputValue:str	-> The input value decoded
 
-#============================================#
+#==================================================#
 
 def decode(inputValue:str, inputRadix:str) :
 	outputValue = 0
@@ -55,7 +55,7 @@ def decode(inputValue:str, inputRadix:str) :
 
 
 
-#============================================#
+#==================================================#
 
 	#---------------Usage----------------#
 	
@@ -70,7 +70,7 @@ def decode(inputValue:str, inputRadix:str) :
 	
 	#outputValue:str	-> The input value encoded with the output radix
 
-#============================================#
+#==================================================#
 
 def encode(inputValue:int, outputRadix:str) :
 	outputValue = ""
