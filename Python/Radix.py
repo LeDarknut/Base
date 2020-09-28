@@ -33,7 +33,7 @@ def convert(inputValue:str, inputRadix:str, outputRadix:str) :
 
 	#---------------Usage----------------#
 	
-	#This fonction decodes a string which represents an integer value encoded with a radix
+	#This fonction decodes an integer value encoded with a radix
 	
 	#--------------Inputs----------------#
 	
@@ -59,7 +59,7 @@ def decode(inputValue:str, inputRadix:str) :
 
 	#---------------Usage----------------#
 	
-	#This fonction encodes an integer value to a radix
+	#This fonction encodes an integer value with a radix
 	
 	#--------------Inputs----------------#
 	
